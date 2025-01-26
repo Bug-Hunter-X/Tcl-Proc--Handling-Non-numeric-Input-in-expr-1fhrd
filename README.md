@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Tcl procedures when using the expr command with unvalidated input. The `bug.tcl` file showcases the issue where the procedure `incorrect_proc` fails when given a non-numeric argument. The solution (`bugSolution.tcl`) provides a robust version that checks for numeric input before proceeding with the calculation.
